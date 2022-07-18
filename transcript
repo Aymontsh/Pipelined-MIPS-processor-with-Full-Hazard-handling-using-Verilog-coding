@@ -1,0 +1,32 @@
+# vsim work.topmodule 
+# Start time: 16:21:20 on Jul 18,2022
+# Loading work.topmodule
+# Loading work.Datapath
+# Loading work.program_counter
+# Loading work.mux2
+# Loading work.Instruction_memory
+# Loading work.Adder
+# Loading work.Register_file
+# Loading work.mux
+# Loading work.Sign_Extend
+# Loading work.shift_left_twice
+# Loading work.pipeline_reg_fet_Dec
+# Loading work.ALU
+# Loading work.pipeline_reg_Dec_Exe
+# Loading work.Data_memory
+# Loading work.pipeline_reg_Exe_Mem
+# Loading work.pipeline_reg_Mem_WB
+# Loading work.control_unit
+# Loading work.Main_Decoder
+# Loading work.ALU_Decoder
+# Loading work.Hazard_Unit
+add wave -position end  sim:/topmodule/testvalue
+add wave -position end  sim:/topmodule/clk
+add wave -position end  sim:/topmodule/reset
+force -freeze sim:/topmodule/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/topmodule/reset 1 0
+force -freeze sim:/topmodule/reset 0 20
+force -freeze sim:/topmodule/reset 1 40
+run -all
+# End time: 16:22:30 on Jul 18,2022, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0

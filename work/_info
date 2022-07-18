@@ -1,0 +1,424 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mohamed Ayman/OneDrive/Desktop/MIPS Pipeline Project
+vAdder
+!s110 1658153587
+!i10b 1
+!s100 4Ol=RaY90PZKoPfZPLBAR2
+I4KkZBDW0iSI`[nCBA:T=41
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657975541
+8./Adder.v
+F./Adder.v
+L0 9
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1658153587.000000
+!s107 ./Adder.v|
+!s90 ./Adder.v|
+!i113 1
+Z3 tCvgOpt 0
+n@adder
+vALU
+!s110 1658153590
+!i10b 1
+!s100 aOojG9k6J_Ob8e23G7Ch]2
+I`l_JXiCmVP6?KYE`G_fR:1
+R1
+R0
+w1658150492
+8./ALU.v
+F./ALU.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153590.000000
+!s107 ./ALU.v|
+!s90 ./ALU.v|
+!i113 1
+R3
+n@a@l@u
+vALU_Decoder
+!s110 1658153594
+!i10b 1
+!s100 [YDNGIi9QhCCEZzAoPU1?0
+IlnWYWIVBN@hCSei=3IO8F0
+R1
+R0
+w1657976040
+8./ALU_Decoder.v
+F./ALU_Decoder.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153594.000000
+!s107 ./ALU_Decoder.v|
+!s90 ./ALU_Decoder.v|
+!i113 1
+R3
+n@a@l@u_@decoder
+vcontrol_unit
+!s110 1658153598
+!i10b 1
+!s100 NNb3eN;I@2]`F]oa3<IbG1
+I?I9g@DAAOPE1Z439o<>ob2
+R1
+R0
+w1658151653
+8./control_unit.v
+F./control_unit.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153597.000000
+!s107 ./control_unit.v|
+!s90 ./control_unit.v|
+!i113 1
+R3
+vData_memory
+!s110 1658153605
+!i10b 1
+!s100 `QWCQ^PQIHcULWk37<LOE0
+IM4oo:c0zJK3mO2_OkzW313
+R1
+R0
+w1657976731
+8./Data_memory.v
+F./Data_memory.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153605.000000
+!s107 ./Data_memory.v|
+!s90 ./Data_memory.v|
+!i113 1
+R3
+n@data_memory
+vDatapath
+!s110 1658154068
+!i10b 1
+!s100 1kPGGQ;gj6IF]BmIbc4130
+IgJZ^TAF_ToikE8DRW8]TK0
+R1
+R0
+w1658152434
+8./Datapath.v
+F./Datapath.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658154068.000000
+!s107 ./Datapath.v|
+!s90 ./Datapath.v|
+!i113 1
+R3
+n@datapath
+vHazard_Unit
+!s110 1658153609
+!i10b 1
+!s100 E<^J;@ZdR`7D9<cQgcY8[0
+IR]hXj5Wf7PEkz?2FaS@dN1
+R1
+R0
+w1658152267
+8./Hazard_Unit.v
+F./Hazard_Unit.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153609.000000
+!s107 ./Hazard_Unit.v|
+!s90 ./Hazard_Unit.v|
+!i113 1
+R3
+n@hazard_@unit
+vInstruction_memory
+!s110 1658154061
+!i10b 1
+!s100 dfmTeObfY7S>_UCHk4cW@2
+I_0UCVPG;<`^V67f^9kFW01
+R1
+R0
+w1658011196
+8./Instruction_memory.v
+F./Instruction_memory.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1658154061.000000
+!s107 ./Instruction_memory.v|
+!s90 ./Instruction_memory.v|
+!i113 1
+R3
+n@instruction_memory
+vMain_Decoder
+!s110 1658153618
+!i10b 1
+!s100 N>U??m[Z6PVe]SPM>Wg;L0
+Idd=d=@@h@Ff<Q=7l@D4A^1
+R1
+R0
+w1657976386
+8./Main_Decoder.v
+F./Main_Decoder.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153618.000000
+!s107 ./Main_Decoder.v|
+!s90 ./Main_Decoder.v|
+!i113 1
+R3
+n@main_@decoder
+vmux
+!s110 1658153623
+!i10b 1
+!s100 e2oZD:=cmN?G@_SPbZO<n2
+I=92D]aJWgXYDGB0mBo]8m3
+R1
+R0
+w1657986265
+8./mux.v
+F./mux.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153622.000000
+!s107 ./mux.v|
+!s90 ./mux.v|
+!i113 1
+R3
+vmux2
+!s110 1658153626
+!i10b 1
+!s100 QiB:omI77ReU>KeKWSc=;0
+IQkV?5ULk^9R_ahIOXc[mT1
+R1
+R0
+w1657987570
+8./mux2.v
+F./mux2.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153626.000000
+!s107 ./mux2.v|
+!s90 ./mux2.v|
+!i113 1
+R3
+vpipeline_reg_Dec_Exe
+!s110 1658153630
+!i10b 1
+!s100 GfFmHA3N7`jWS[nA3US_?1
+IIkLDBcWazkOXl7hS=cmKZ1
+R1
+R0
+w1657981927
+8./pipeline_reg_Dec_Exe.v
+F./pipeline_reg_Dec_Exe.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153630.000000
+!s107 ./pipeline_reg_Dec_Exe.v|
+!s90 ./pipeline_reg_Dec_Exe.v|
+!i113 1
+R3
+npipeline_reg_@dec_@exe
+vpipeline_reg_Exe_Mem
+!s110 1658153635
+!i10b 1
+!s100 C4GlDSO51QU3[deQMH>8J2
+IdnoDAgHCjk?iVEnPze7N>0
+R1
+R0
+w1657983261
+8./pipeline_reg_Exe_Mem.v
+F./pipeline_reg_Exe_Mem.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153635.000000
+!s107 ./pipeline_reg_Exe_Mem.v|
+!s90 ./pipeline_reg_Exe_Mem.v|
+!i113 1
+R3
+npipeline_reg_@exe_@mem
+vpipeline_reg_fet_Dec
+!s110 1658153648
+!i10b 1
+!s100 ;JaVdfaaG<MiDg?c[je;@1
+I;hTME095BF:^_aQl4>FHo0
+R1
+R0
+w1657977522
+8./pipeline_reg_fet_Dec.v
+F./pipeline_reg_fet_Dec.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153647.000000
+!s107 ./pipeline_reg_fet_Dec.v|
+!s90 ./pipeline_reg_fet_Dec.v|
+!i113 1
+R3
+npipeline_reg_fet_@dec
+vpipeline_reg_Mem_WB
+!s110 1658153651
+!i10b 1
+!s100 h=J]nGlZ:ZmdN4MBS3[DS3
+Inc<j6gJ3QOKB]_LE[Z??a3
+R1
+R0
+w1657983615
+8./pipeline_reg_Mem_WB.v
+F./pipeline_reg_Mem_WB.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153651.000000
+!s107 ./pipeline_reg_Mem_WB.v|
+!s90 ./pipeline_reg_Mem_WB.v|
+!i113 1
+R3
+npipeline_reg_@mem_@w@b
+vprogram_counter
+!s110 1658153656
+!i10b 1
+!s100 Tldo5L]39<9@ClA0j0Ol<1
+IT_0eGDjKg_HmHWzIceaGI0
+R1
+R0
+w1658152598
+8./program_counter.v
+F./program_counter.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153656.000000
+!s107 ./program_counter.v|
+!s90 ./program_counter.v|
+!i113 1
+R3
+vRegister_file
+!s110 1658153660
+!i10b 1
+!s100 EC^W7L[93FJojm4KVga5G3
+IE15T@6I1LM0K;=zb<Q3^J0
+R1
+R0
+w1657984455
+8./Register_file.v
+F./Register_file.v
+L0 10
+R2
+r1
+!s85 0
+31
+!s108 1658153660.000000
+!s107 ./Register_file.v|
+!s90 ./Register_file.v|
+!i113 1
+R3
+n@register_file
+vshift_left_twice
+!s110 1658153664
+!i10b 1
+!s100 BN]kIzo2hC95:]_n?1JH61
+ILF3Lh^]Rl4RL@zM44AKS20
+R1
+R0
+w1657990250
+8./shift_left_twice.v
+F./shift_left_twice.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153664.000000
+!s107 ./shift_left_twice.v|
+!s90 ./shift_left_twice.v|
+!i113 1
+R3
+vSign_Extend
+!s110 1658153668
+!i10b 1
+!s100 k25a0@094]R5@WSV]JD401
+Ig294GWoTB=TkZW8O_JZWg2
+R1
+R0
+w1657990850
+8./Sign_Extend.v
+F./Sign_Extend.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658153668.000000
+!s107 ./Sign_Extend.v|
+!s90 ./Sign_Extend.v|
+!i113 1
+R3
+n@sign_@extend
+vtopmodule
+!s110 1658154073
+!i10b 1
+!s100 Zo@2Hj]gJPQjI3>If>zMW0
+IR3VE6R1F1OiSGIWVanQI62
+R1
+R0
+w1658009690
+8./topmodule.v
+F./topmodule.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1658154072.000000
+!s107 ./topmodule.v|
+!s90 ./topmodule.v|
+!i113 1
+R3
